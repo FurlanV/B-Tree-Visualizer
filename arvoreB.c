@@ -303,7 +303,7 @@ void geraDotAux(TipoApontador no,FILE *out)/*Função que gera o código DOT atr
 
 void geraArquivoDot(TipoApontador arvore,FILE *arqDot)/*Função que gera o código DOT através da ordem da arvore*/
 {
-    fprintf(arqDot,"digraph graphname {\n");
+    fprintf(arqDot,"ArvoreB {\n");
     geraDotAux(arvore,arqDot);
     fprintf(arqDot,"}\n");
 }
